@@ -1,0 +1,130 @@
+
+body, h1, h2, dt, dd, timline{
+    margin: 0;
+    padding: 0;
+}
+li timeline-item{ list-style-type: none; }
+
+
+body{ background-color: black;
+      max-height: none;
+      text-align: center;}
+
+body,h1 { margin: 0;}
+
+header{ background-color:black;
+        height: 15vh;
+        background-position: center;
+        padding: 40px;
+        font-family: "Century Gothic"
+}
+ul antive{ float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    }
+ul li{ display: inline-block;
+}
+ul li a{ text-decoration: none;
+         color: #fff;
+         padding: 10px 40px;
+         border: 1px solid #fff transparent;
+         transition: 0.6s ease;
+    
+}
+ul li a:hover{ background-color: #fff;
+               color: #000;
+}
+ul li.active a { background-color: #fff;
+               color: #000;
+}
+.logo img{ 
+           float:left;
+           width: 50px;
+           height: auto;
+           padding: 15px;
+           margin-top: -75px;
+}
+.main{ max-width: 1200px;
+       max-height: none;
+       margin: auto 0;
+}
+
+.wrapper{ padding: 0 20px;
+          max-width: 960px;
+          margin: 0 auto;}
+
+.cover { color: antiquewhite;
+         padding-top: 3%;
+         padding-bottom: 3%;
+         text-align: center;
+        transition: padding .5s;
+}
+.cover-title { font-size: 4vw;
+             font-weight: normal;
+             line-height: 1;
+             font-style: italic;
+             transition: font-size .5s; 
+}
+    
+.cover-title span{ font-family: 'arial';
+                   font size: 0.2em;
+                   display: block;
+                 text-indent: 3pm;}
+
+
+.card { background-color: grey;
+        color: antiquewhite;
+        padding: 20px;
+        border-radius: 30px;
+}
+
+.card-icon { width: 200px;
+             height: auto;
+             vertical-align: top;
+             margin-top: -70px;
+}
+
+.card-title {font-size: 10vw;
+             color: beige;
+             font-family: "impact";
+             line-height: 1;
+             padding: 20px;
+}
+
+.card-definition { margin: 20px;
+                  }
+
+.card-definition dt {font-size: 25px;
+                     color: black;
+                     margin-bottom: 20px;
+                     font-family:sans-serif;}
+
+@media
+    ( min-width: 720px) {
+       
+        .cover { padding-top: 10%;
+            padding-bottom: 5%;}
+        .cover-title { font-size: 5vw;}
+        .timeline-item{ width: 50%;} 
+        .timeline-item: nth-child(even) { 
+        margin-left: auto;}
+        .card-title{ font-size: 5vw;}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

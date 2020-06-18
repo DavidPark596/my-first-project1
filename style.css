@@ -1,0 +1,98 @@
+*{ margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+header{ background-image: url(%EC%8A%A4%ED%8B%B0%EB%B8%90%EC%9E%A1%EC%8A%A4.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: right;
+        padding:50px;
+        font-family: "Century Gothic"
+        
+}
+.ul antive{ float: right;
+    list-style-type: none;
+
+}
+ul li{ display: inline-block;
+}
+ul li a{ text-decoration: none;
+         color: #fff;
+         padding: 10px 40px;
+         border: 1px solid #fff transparent;
+         transition: 0.6s ease;
+    
+}
+ul li a:hover{ background-color: #fff;
+               color: #000;
+}
+ul li.active a { background-color: #fff;
+               color: #000;
+}
+.logo img{ 
+           float:left;
+           width: 50px;
+           height: auto;
+           padding: 15px;
+           margin-top: -57px;
+}
+.main{ max-width: 1200px;
+       margin-left: 300px;
+}
+.small-title  { position: absolute;
+        top: -350%;
+        left: 35%;
+        transform: translate(-50%,-50%);
+        color: darkgray;
+        font-size: 1.1em;
+        font-style: italic;}        
+
+.title{ position: absolute;
+        top: 50%;
+        left: 31%;
+        transform: translate(-50%,-50%);
+        color: antiquewhite;
+        font-size: 1.8em;
+}
+.sub-title { position: absolute;
+        top: 57%;
+        left: 34%;
+        transform: translate(-50%,-50%);
+        color: darkgray;
+        font-size: 0.8em;
+        font-style: italic;}
+
+.button {position: absolute;
+        top: 300%;
+        left: 29%;
+        transform: translate(-50%,-50%);}
+.btn { border: 1px solid #fff;
+       padding: 15px 35px;
+       color: antiquewhite;
+       text-decoration: none;
+       transition: 0.6s ease;
+}
+
+.btn:hover{ background-color: #fff;
+               color: #000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
